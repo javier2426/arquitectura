@@ -1,0 +1,176 @@
+.container{
+	display:flex;
+	width:100%;
+	height:100vh;
+	padding:4% 2%;
+	box-sizing:border-box;
+	position:relative;
+	top:-50px;
+}
+.box{
+	flex:1;
+	overflow:hidden;
+	margin:8px;
+	box-shadow:0 20px 30px rgba(0, 0, 0, 0.20);
+	line-height:0;
+	transition:a11 800ms;
+
+}
+
+.box>img{
+	width:1200px;
+	height:calc(100%-10vh);
+	object-fit: cover;
+	transition:a11 800ms;
+}
+
+.box>span{
+	font-size:35px;
+	font-family:;
+	display:block;
+	text-align:center;
+	height:10vh;
+	line-height:2.6;
+
+}
+
+.box:hover>img{
+	width:100%;
+	height:100%;
+}
+
+
+.titulo{
+	width:100%;
+	height:100px;
+	background:#fff;
+	font-size:25px;
+	text-align:center;
+	position:relative;
+	top:-100px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	font-family:'Open Sans';
+background: rgba(242,245,248,1);
+background: -moz-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,245,248,1)), color-stop(50%, rgba(217,223,232,0.99)), color-stop(99%, rgba(180,193,207,0.97)), color-stop(100%, rgba(180,193,207,0.97)));
+background: -webkit-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -o-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -ms-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: linear-gradient(to right, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f8', endColorstr='#b4c1cf', GradientType=1 );
+	box-shadow:0 20px 30px rgba(0, 0, 0, 0.40);
+
+}
+
+li a{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-mox-box-sizing:border-box;
+box-sizing:border-box;
+}
+.navegacion{
+	width:1000px;
+	margin:30px auto;
+background: rgba(242,245,248,1);
+background: -moz-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,245,248,1)), color-stop(50%, rgba(217,223,232,0.99)), color-stop(99%, rgba(180,193,207,0.97)), color-stop(100%, rgba(180,193,207,0.97)));
+background: -webkit-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -o-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: -ms-linear-gradient(left, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+background: linear-gradient(to right, rgba(242,245,248,1) 0%, rgba(217,223,232,0.99) 50%, rgba(180,193,207,0.97) 99%, rgba(180,193,207,0.97) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f8', endColorstr='#b4c1cf', GradientType=1 );
+position:relative;
+top:-80px;
+	box-shadow:0 20px 30px rgba(0, 0, 0, 0.40);
+
+}
+.navegacion ul{
+	list-style:none;
+}
+
+.menu > li{
+	position relative;
+	display:inline-block;
+}
+.menu > li > a{
+	display:block;
+	padding:15px 20px;
+	color:#000;
+	font-family:'Open Sans';
+	text-decoration:none;
+}
+
+.menu li a:hover{
+	color:#00aeae;
+	transition:all .5s;
+}
+
+.contenedor{
+	width:800px;
+	height:4300px;
+	background:#fff;
+	font-size:px;
+	text-align:center;
+	position:relative;
+	top:-50px;
+	bottom:0px;
+	left:175px;
+	right:0px;
+	box-shadow:0 30px 40px rgba(0, 0, 0, 0.60);
+	border-top:5px solid #000079;
+
+}
+.contenedor img{
+	width:350px;
+	float:left;
+	margin:20px 20px;
+}
+
+.contenedor p{
+	font-size:20px;
+	font-weight:300px;
+	margin:30px 20px;
+	border:30px 30px;
+	padding:0px;
+	text-align:left;
+}
+
+.anuncios{
+	width:350px;
+	height:1600px;
+	background:;
+	position:relative;
+	top:-4100px;
+	bottom:0;
+	left:810px;
+	right:0;
+	text-align:left;
+}
+.anuncios img{
+	width:300px;
+	margin-top:20px;
+}
+
+h2{
+	text-align:left;
+	margin:20px;
+}
+
+.contenedor>img{
+	transition:9s line;
+		box-shadow:0 20px 30px rgba(0, 0, 0, 0.40);
+
+}
+
+.contenedor>img:hover{
+	transform:scale(1.1);
+		box-shadow:0 20px 30px rgba(0, 0, 0, 0.40);
+
+}
+
+iframe{
+		box-shadow:0 20px 30px rgba(0, 0, 0, 0.40);
+}
